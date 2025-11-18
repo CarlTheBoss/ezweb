@@ -1,0 +1,20 @@
+# Versión de la sintaxis de Docker Compose
+version: "3.8"
+
+# Definición de los servicios (contenedores)
+services:
+  # Nombre del servicio, puede ser cualquiera (ej. web, app, etc.)
+  foodhub-web:
+    # Nombre que se le dará al contenedor una vez que se ejecute
+    container_name: foodhub_container
+
+    # Instrucciones para construir la imagen
+    build:
+      # El contexto es el directorio actual (donde está el Dockerfile)
+      context: .
+      # Especifica el nombre del Dockerfile (opcional si se llama 'Dockerfile')
+      dockerfile: Dockerfile
+
+    # Mapeo de puertos: <puerto_host>:<puerto_contenedor>
+    ports:
+      - "8080:80"
