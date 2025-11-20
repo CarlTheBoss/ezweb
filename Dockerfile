@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copia todo el contenido de la carpeta 'src' al directorio del servidor
-COPY . /usr/share/nginx/html/
+COPY src/ /usr/share/nginx/html/
 
 # Expone el puerto 80 para permitir el tráfico HTTP
 EXPOSE 80
