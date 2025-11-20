@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "nombre": "Manzana Delicia",
+    "categoria": "Frutas",
+    "precio": 4.5,
+    "imagen": "assets/images/productos/manzana.png",
+    "descripcion": "Frutas frescas y crujientes, ricas en fibra y vitaminas. Perfectas para un snack saludable."
+  },
+  {
+    "id": 2,
+    "nombre": "Plátano de Seda",
+    "categoria": "Frutas",
+    "precio": 3.8,
+    "imagen": "assets/images/productos/platano.png",
+    "descripcion": "Plátanos dulces y suaves, excelente fuente de potasio y energía natural."
+  },
+  {
+    "id": 16,
+    "nombre": "Lúcuma",
+    "categoria": "Frutas",
+    "precio": 8.0,
+    "imagen": "assets/images/productos/lucuma.png",
+    "descripcion": "Fruta peruana exótica, ideal para batidos y postres saludables. Rica en antioxidantes."
+  },
+  {
+    "id": 3,
+    "nombre": "Brócoli",
+    "categoria": "Verduras y hortalizas",
+    "precio": 5.2,
+    "imagen": "assets/images/productos/brocoli.png",
+    "descripcion": "Verdura verde rica en vitaminas C y K. Perfecta para ensaladas y salteados."
+  },
+  {
+    "id": 4,
+    "nombre": "Zanahoria",
+    "categoria": "Verduras y hortalizas",
+    "precio": 3.5,
+    "imagen": "assets/images/productos/zanahoria.png",
+    "descripcion": "Hortaliza rica en betacaroteno, excelente para la vista y la piel."
+  },
+  {
+    "id": 17,
+    "nombre": "Papa Amarilla",
+    "categoria": "Verduras y hortalizas",
+    "precio": 4.0,
+    "imagen": "assets/images/productos/papa.png",
+    "descripcion": "Papa peruana de textura cremosa, ideal para purés y guisos tradicionales."
+  },
+  {
+    "id": 5,
+    "nombre": "Avena Integral",
+    "categoria": "Granos enteros",
+    "precio": 7.0,
+    "imagen": "assets/images/productos/avena.png",
+    "descripcion": "Grano entero rico en fibra soluble, perfecto para desayunos nutritivos."
+  },
+  {
+    "id": 6,
+    "nombre": "Quinua",
+    "categoria": "Granos enteros",
+    "precio": 12.5,
+    "imagen": "assets/images/productos/quinoa.png",
+    "descripcion": "Superalimento andino con proteína completa. Versátil para múltiples preparaciones."
+  },
+  {
+    "id": 7,
+    "nombre": "Lentejas",
+    "categoria": "Legumbres",
+    "precio": 6.8,
+    "imagen": "assets/images/productos/lentejas.png",
+    "descripcion": "Legumbre rica en proteínas vegetales y hierro. Ideal para sopas y guisos."
+  },
+  {
+    "id": 8,
+    "nombre": "Yogurt Griego",
+    "categoria": "Lácteos o alternativas",
+    "precio": 8.5,
+    "imagen": "assets/images/productos/yogur.png",
+    "descripcion": "Lácteo cremoso alto en proteínas y probióticos. Perfecto para el desayuno."
+  },
+  {
+    "id": 9,
+    "nombre": "Pechuga de Pollo",
+    "categoria": "Proteínas magras",
+    "precio": 15.0,
+    "imagen": "assets/images/productos/pollo.png",
+    "descripcion": "Proteína magra de alta calidad, baja en grasa. Ideal para dietas saludables."
+  },
+  {
+    "id": 10,
+    "nombre": "Filete de Salmón",
+    "categoria": "Pescados ricos en omega-3",
+    "precio": 35.0,
+    "imagen": "assets/images/productos/salmon.png",
+    "descripcion": "Pescado rico en omega-3 y proteínas. Excelente para la salud cardiovascular."
+  },
+  {
+    "id": 11,
+    "nombre": "Almendras",
+    "categoria": "Frutos secos y semillas",
+    "precio": 25.0,
+    "imagen": "assets/images/productos/almendras.png",
+    "descripcion": "Frutos secos ricos en grasas saludables y vitamina E. Snack nutritivo y energético."
+  },
+  {
+    "id": 12,
+    "nombre": "Barra de Granola",
+    "categoria": "Snacks saludables",
+    "precio": 4.0,
+    "imagen": "assets/images/productos/granola.png",
+    "descripcion": "Snack saludable con cereales y frutos secos. Perfecto para llevar."
+  },
+  {
+    "id": 18,
+    "nombre": "Cancha Serrana",
+    "categoria": "Snacks saludables",
+    "precio": 5.5,
+    "imagen": "assets/images/productos/cancha.png",
+    "descripcion": "Maíz tostado tradicional peruano, snack crujiente y natural sin aditivos."
+  },
+  {
+    "id": 13,
+    "nombre": "Agua de Coco",
+    "categoria": "Bebidas saludables",
+    "precio": 6.0,
+    "imagen": "assets/images/productos/aguacoco.png",
+    "descripcion": "Bebida natural hidratante rica en electrolitos. Refrescante y saludable."
+  },
+  {
+    "id": 14,
+    "nombre": "Ensalada Fresca",
+    "categoria": "Comidas preparadas",
+    "precio": 18.0,
+    "imagen": "assets/images/productos/ensalada.png",
+    "descripcion": "Comida preparada con vegetales frescos y aderezos saludables. Lista para comer."
+  },
+  {
+    "id": 15,
+    "nombre": "Chocolate Negro 70%",
+    "categoria": "Opciones dulces saludables",
+    "precio": 14.0,
+    "imagen": "assets/images/productos/chocolate.png",
+    "descripcion": "Chocolate con alto contenido de cacao, rico en antioxidantes. Dulce saludable."
+  }
+]

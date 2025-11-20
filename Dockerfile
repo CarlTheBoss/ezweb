@@ -1,13 +1,13 @@
 # Usa una imagen base oficial de Nginx con Alpine Linux para un tamaño reducido
 FROM nginx:alpine
 
-# Copia los archivos del sitio web al directorio por defecto de Nginx
-COPY FoodHub.html /usr/share/nginx/html/index.html
-COPY index.css /usr/share/nginx/html/
-COPY static/ /usr/share/nginx/html/static/
+# Copia todo el contenido de la carpeta 'src' al directorio del servidor
+COPY src/ /usr/share/nginx/html/
+
+# Renombra 'src/pages/index.html' a 'index.html' en el servidor para que sea la página por defecto
+RUN mv /usr/share/nginx/html/pages/index.html /usr/share/nginx/html/index.html
 
 # Expone el puerto 80 para permitir el tráfico HTTP
 EXPOSE 80
 
-# El comando por defecto de la imagen de Nginx ya se encarga de iniciar el servidor,
-# por lo que no es necesario un CMD o ENTRYPOINT adicional.
+# El comando por defecto de la imagen de Nginx ya se encarga de iniciar el servidor.

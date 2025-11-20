@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <title>Nuestros Productos - FoodHub</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="titulo"><a href="index.html">FoodHub</a></h1>
+      <p class="subtitulo">Encuentra y filtra nuestros productos saludables</p>
+    </header>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="productos.html" class="nav-link active">Productos</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="filtros">
+        <div class="filtro-item">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar por nombre..."
+          />
+        </div>
+        <div class="filtro-item">
+          <select id="category-filter">
+            <option value="">Todas las categorías</option>
+            <!-- Las categorías se poblarán dinámicamente -->
+          </select>
+        </div>
+      </section>
+
+      <section id="productos-grid" class="productos-grid">
+        <!-- Los productos se cargarán aquí dinámicamente -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 FoodHub. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../scripts/productos.js"></script>
+  </body>
+</html>
