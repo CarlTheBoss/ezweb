@@ -1,11 +1,12 @@
 # Usa una imagen base oficial de Nginx con Alpine Linux para un tamaño reducido
 FROM nginx:alpine
 
-# Elimina el contenido por defecto de Nginx
-RUN rm -rf /usr/share/nginx/html/*
-
 # Copia todo el contenido de la carpeta 'src' al directorio del servidor
 COPY src/ /usr/share/nginx/html/
+
+# Renombra 'src/pages/index.html' a 'index.html' en el servidor para que sea la página por defecto
+RUN mv /usr/share/nginx/html/pages/index.html /usr/share/nginx/html/index.html
+RUN mv /usr/share/nginx/html/pages/productos.html /usr/share/nginx/html/productos.html
 
 # Expone el puerto 80 para permitir el tráfico HTTP
 EXPOSE 80
