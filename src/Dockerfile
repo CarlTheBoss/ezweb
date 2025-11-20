@@ -2,10 +2,7 @@
 FROM nginx:alpine
 
 # Copia todo el contenido de la carpeta 'src' al directorio del servidor
-COPY src/ /usr/share/nginx/html/
-
-# Renombra 'src/pages/index.html' a 'index.html' en el servidor para que sea la página por defecto
-RUN mv /usr/share/nginx/html/pages/index.html /usr/share/nginx/html/index.html
+COPY . /usr/share/nginx/html/
 
 # Expone el puerto 80 para permitir el tráfico HTTP
 EXPOSE 80
